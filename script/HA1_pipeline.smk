@@ -1,5 +1,5 @@
 # only variable needed to change
-PROJECT_PATH='/Users/yiquan/PycharmProjects/HA1'
+PROJECT_PATH='/home/tyso2/HA1/'
 FASTA = PROJECT_PATH + '/result/tagfree_fasta/{SAMPLENAME}_tagfree.fa'
 SAMPLENAMES, = glob_wildcards(FASTA)
 REF=PROJECT_PATH + '/ref/PR8HA_ORF.fa'
